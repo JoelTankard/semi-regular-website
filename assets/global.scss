@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "AppleGaramond";
+    src: local("AppleGaramond"),
+        url(~assets/fonts/AppleGaramond.ttf) format("truetype");
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    @apply text-op-black bg-op-gray-50;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'AppleGaramond', 'Instrument Serif', serif;
+    @apply tracking-tight;
+}
+
+h1 {
+    @apply text-5xl mb-8;
+
+    @screen sm {
+        @apply text-6xl;
+    }
+}
+
+h2 {
+    @apply text-4xl mb-3;
+
+    @screen sm {
+        @apply text-5xl;
+    }
+}
+
+h3 {
+    @apply text-xl mb-2;
+
+    @screen sm {
+        @apply text-2xl;
+    }
+}
+
+section {
+    @apply flex flex-col justify-center items-center w-full;
+}
+
+.section-content {
+    @apply max-w-screen-xl p-10 w-full;
+
+    // @screen md {
+    //     @apply px-4;
+    // }
+}
