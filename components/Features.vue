@@ -16,7 +16,7 @@
                         </h2>
 
                    
-                    <p>Discover a world of fresh experiences. Sunday automatically plans weekly day trips for you, unlocking local cafes, beaches, picturesque walking trails, intriguing restaurants, and more</p>
+                    <p>Break free from your weekday routine. With Sunday, you can transform your weekends into exciting adventures, exploring unique local spots and attractions.</p>
                 </div>
                 </div>
                 <div class="feature-images">
@@ -36,7 +36,7 @@
                         <span>No planning</span><br/>
                         <span><UnderlineArrow class="-mb-1 -mr-16" /><span>required</span></span>
                     </h2>
-                    <p>No time wasted on research or scheduling. Sunday carefully plans your day around a central location, serving you a digestible itinerary tailored to your taste.</p>
+                    <p>No time wasted on research or scheduling. Sunday takes care of every detail, from selecting ideal local spots to creating your itinerary. Enjoy your journey without the hassle.</p>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                             <span><Dash2Right class="-mt-6 -mr-8"/><span>Personalized</span></span><br/>
                             <span>Adventures</span>
                         </h2>
-                        <p>Whether you've just moved to a new city or have lived in one place for years, Sunday caters to your unique desire for exploration and helps you unearth the unexplored.</p>
+                        <p>Sunday offers personalized adventures that cater to your preferences. Whether you're new to the area or a long-term resident, discover your surroundings without the overwhelming choices.</p>
                     </div>
                 </div>
                  <div class="feature-images">

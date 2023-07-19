@@ -24,7 +24,7 @@
                     </div>
                     <div class="mb-10">
                         <h3 class="text-6xl md:text-8xl mb-4 -mx-2 sm:mx-0 font-normal">Join to discover somewhere new every <i>Sunday</i></h3>
-
+                        <p>Join our waitlist by entering your email and explore a new locale every Sunday.</p>
                     </div>
                 </div>
                 <GetNotified />
