@@ -1,7 +1,10 @@
 <template>
     <div class="inline-block max-w-lg w-full mx-auto relative">
         <form @submit="func_submit" :class="[`size-${size}`, { 'white': white }]">
+            <div class="input-wrapper">
+                <i class="uil uil-mailbox"></i>
             <input v-model="data_email" placeholder="Your email" type="email" :disabled="data_loading" />
+            </div>  
             <button type="submit" :disabled="data_loading"><span>Join waitlist</span>
                 <loader v-if="data_loading" class="ml-2" />
                 <i v-else class="text-2xl uil uil-arrow-right ml-2"></i>
@@ -61,8 +64,14 @@ export default {
 form {
     @apply font-semibold w-full sm:flex;
 
+    .input-wrapper {
+        @apply relative text-sun-black pointer-events-none flex items-center bg-white border-2 border-white focus:border-sun-yellow  p-3 px-6 rounded-full w-full bg-gray-50;
+        i {
+            @apply text-2xl mr-2;
+        }
+    }
     input {
-        @apply border-2 border-op-black p-4 px-8 rounded-full w-full bg-gray-50;
+        @apply w-full bg-transparent outline-none pointer-events-auto absolute inset-0 pl-16;
 
         &:focus {
             @apply outline-none;
@@ -70,7 +79,13 @@ form {
     }
 
     button {
-        @apply w-full sm:w-auto mt-2 sm:mt-0 sm:ml-2 bg-op-black border-2 border-op-black font-semibold p-4 pl-8 pr-6 rounded-full text-white whitespace-nowrap flex items-center justify-center;
+        @apply w-full sm:w-auto mt-2 sm:mt-0 sm:ml-2 bg-sun-yellow border-2 border-sun-yellow-light p-3 pl-6 pr-4 rounded-full text-sun-black whitespace-nowrap flex items-center justify-center;
+        i {
+            @apply text-xl
+        }
+        &:hover {
+            @apply bg-sun-yellow-dark;
+        }
     }
 
     &.size-lg {
@@ -79,11 +94,11 @@ form {
 
     &.white {
         input {
-            @apply border-white text-white bg-op-black;
+            @apply border-white text-white bg-sun-black;
         }
 
         button {
-            @apply bg-white text-op-black;
+            @apply bg-white text-sun-black;
         }
     }
 }

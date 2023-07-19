@@ -4,7 +4,7 @@
             <img :src="image" :alt="title" />
         </div>
         <div class="feature-content">
-            <h2 class="feature-title md:w-96">{{ title }}</h2>
+            <h3 class="feature-title md:w-96">{{ title }}</h3>
             <p class="feature-description">{{ description }}</p>
         </div>
     </div>
@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss" scoped>
 .feature-block {
-    @apply rounded-4xl overflow-hidden flex items-center justify-evenly bg-op-gray-200 w-full;
+    @apply rounded-4xl overflow-hidden flex items-center justify-evenly bg-sun-gray-200 w-full;
 
     &.feature-row {
         @apply md:flex-row flex-col justify-evenly;

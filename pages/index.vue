@@ -1,9 +1,8 @@
 <template>
-  <main>
+  <main class="overflow-x-hidden">
     <Hero/>
-    <Features/>
+    <Features class="relative"/>
     <ActionFooter/>
-    <Footer />
   </main>
 </template>
 

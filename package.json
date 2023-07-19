@@ -1,5 +1,5 @@
 {
-  "name": "operator-website",
+  "name": "sunday-website",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,9 @@
     "firebase": "^9.11.0",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
+    "vue-on-intersect": "^0.2.5",
     "vue-server-renderer": "^2.6.14",
+    "vue-sync-location": "^0.1.6",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },
