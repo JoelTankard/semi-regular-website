@@ -70,7 +70,7 @@ export default {
 
 <style lang="scss" scoped>
 .action-footer {
-    @apply relative min-h-screen w-full bg-sun-blue text-white;
+    @apply relative w-full bg-sun-blue text-white;
 
     .footer-video {
         @apply absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-1000 ease-in-out;
