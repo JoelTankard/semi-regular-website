@@ -10,7 +10,6 @@
             </div>
           
             <div class="sm:ml-8">
-            <!-- <h2 class="text-3xl sm:text-6xl">Break free from routine</h2> -->
             <h1 class="text-6xl sm:text-8xl">Weekly day trips every <i>Sunday</i>, <br/>auto-planned itinerarys.</h1>
             <p class="mb-12 ">Sunday automatically curates day trips for you every week, offering meticulously planned itineraries within a two-hours of your location.</p>
             <GetNotified />

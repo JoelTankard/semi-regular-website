@@ -8,22 +8,36 @@
            <div class="section-content">
                 <div class="flex justify-center items-center mb-10">
                     <div class="footer-dots">
-                        <div class="dot-section -mb-8 sm:-mb-20 md:mb-0">
-                            <span class="dot left-0 ml-12 sm:ml-20 -mt-36 bg-sun-blue rounded-full" />
-                            <span class="dot left-0 mt-0 sm:mt-28 ml-12 sm:ml-5 bg-sun-orange rounded-full" />
-                            <span class="dot right-0 mr-16 mt-20 bg-sun-green rounded-full" />
-                        </div>
-                        <div class="dot-section -mb-8 sm:-mb-20 md:mb-0">
-                            <span class="dot right-0 -mt-48 sm:-mt-64 md:-mt-48 lg:-mt-40 mr-8 bg-sun-yellow rounded-full" />
-                       </div>
-                        <div class="dot-section -mb-8 sm:-mb-20 md:mb-0">
-                            <span class="dot left-0 mt-24 ml-12 bg-sun-purple rounded-full" />
-                            <span class="dot left-0 sm:left-auto sm:right-0 mt-6 ml-36 sm:ml-0 sm:mr-14 xl:mr-16 bg-sun-orange rounded-full" />
-                            <span class="dot right-0 -mt-20 mr-12 sm:-mr-12 bg-sun-purple rounded-full" />
-                        </div>
+                      
                     </div>
-                    <div class="mb-10">
-                        <h3 class="text-6xl md:text-8xl mb-4 -mx-2 sm:mx-0 font-normal">Join to discover somewhere new every <i>Sunday</i></h3>
+                    <div class="mb-10 relative flex flex-col justify-center items-center py-10">
+                        <div class="dot-section top-0 left-0">
+                        </div>
+                          <div class="dot-section left-0">
+                                <span class="dot -ml-12 mt-26 md:-mt-12 bg-sun-yellow " />
+                            </div>
+                         <div class="dot-section bottom-0 left-0">
+                                 <span class="dot ml-32 bg-sun-blue " />
+                        </div>
+                         <div class="dot-section top-0">
+                                        <span class="dot -mt-6 bg-sun-red " />
+                                          <span class="dot -ml-32 md:-ml-64 md:-mt-24 bg-sun-purple " />
+                                </div>
+                   
+
+                        <div class="dot-section top-0 right-0">
+                                <span class="dot -ml-20 -mt-12 bg-sun-orange " />
+                            </div>
+                              <div class="dot-section right-0">
+                                    <span class="dot mt-20 -mr-10 bg-sun-blue " />
+                                </div>
+                             <div class="dot-section bottom-0 right-0">
+                            </div>
+                                 <div class="dot-section bottom-0">
+                                        <span class="dot ml-48 mt-10 bg-sun-green " />
+                                </div>
+
+                        <h3 class="text-5xl md:text-8xl mb-4 -mx-2 sm:mx-0 font-normal">Join to discover somewhere new every <i>Sunday</i></h3>
                         <p>Join our waitlist by entering your email and explore a new locale every Sunday.</p>
                     </div>
                 </div>
@@ -75,17 +89,15 @@ background: linear-gradient(180deg, #F9F7F4 0%, rgba(249, 247, 244, 0.99) 6.67%,
             @apply relative text-center pb-48;
         }
 
-        .footer-dots {
-            @apply absolute w-full h-full flex justify-evenly items-center;
-
             .dot-section {
-                @apply relative border-white w-60 md:w-72 -mx-14 sm:-mx-4 md:mx-0;
+                @apply absolute h-1 w-1 flex justify-center items-center;
+                  .dot {
+            @apply w-3 h-3 absolute rounded-full;
+        }
+   
             }
 
-            .dot {
-            @apply w-3 h-3 absolute;
-        }
-        }
+          
 
         h1 {
             @apply md:max-w-3xl relative;
